@@ -2,9 +2,10 @@ import pickle
 import pandas as pd
 from flask             import Flask, request
 from Rossmann import Rossmann
+import os
 
 # loading model
-model = pickle.load( open(r'https://github.com/OscarFantozzi/rossmann_sales/blob/main/trained_model.pkl' , 'rb') )
+model = pickle.load( open(r'trained_model.pkl' , 'rb') )
 
 # initialize api
 app = Flask( __name__ )
@@ -43,4 +44,5 @@ def rossmann_predict():
         return Response( '{}', status = 200, mimetype = 'application/json' )
 
 if __name__ == '__main__':
-    app.run( '192.168.1.18' )
+    port = os.environ.get( 'PORT', 5000 ) 
+    app.run( host = '0.0.0.0', port = port )
