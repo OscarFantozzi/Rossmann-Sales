@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 from flask             import Flask, request
-from rossmann.Rossmann import Rossmann
+from Rossmann import Rossmann
 
 # loading model
 model = pickle.load( open(r'\Users\oscar\Documents\repos\rossmann_sales\trained_model.pkl' , 'rb') )
@@ -43,4 +43,4 @@ def rossmann_predict():
         return Response( '{}', status = 200, mimetype = 'application/json' )
 
 if __name__ == '__main__':
-    app.run( '192.168.1.14' )
+    app.run( '192.168.1.18' )
