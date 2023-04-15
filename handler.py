@@ -5,7 +5,7 @@ from Rossmann import Rossmann
 import os
 
 # loading model
-model = pickle.load( open(r'trained_model.pkl' , 'rb') )
+model = pickle.load( open( 'trained_model.pkl' , 'rb') )
 
 # initialize api
 app = Flask( __name__ )
