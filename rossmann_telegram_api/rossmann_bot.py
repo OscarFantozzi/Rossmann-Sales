@@ -4,7 +4,7 @@ import requests
 from flask import Flask, request, Response
 
 # # constants
-token = '5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ'
+token = ${{ secrets.token_telegram }}
 
 # # info about bot
 # https://api.telegram.org/bot5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ/getMe
@@ -58,7 +58,7 @@ def load_data( store_id ):
 
 def predict( data ):
     # API call
-    url = 'https://api-teste-rs-2023.ew.r.appspot.com/rossmann/predict'
+    url = '${{ secrets.API_TELEGRAM }}'
     header = {'Content-type' : 'application/json'}
 
     data = data
