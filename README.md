@@ -71,4 +71,10 @@ Em um dataset tabular ( dados em formato de tabela ), cada coluna representa um 
 
 ## ETAPA 2: Feature Engineering
 
-A etapa de feature engineering consiste em criar novas features ( colunas ) a partir do dataset original, ou combinando com outro dataset. É bastante comum por exemplo extrairmos as features "Ano", "Mês", "Dia" através de uma data no formato 'aaaa-mm-dd' para realizarmos análises com menores granularidades ou para construir tableas sumarizadas por Ano/Mês/Dia.
+A etapa de feature engineering consiste em criar novas features ( colunas ) a partir do dataset original, ou combinando com outro dataset. É bastante comum por exemplo extrairmos as features "Ano", "Mês", "Dia" através de uma data no formato 'aaaa-mm-dd' para realizarmos análises com menores granularidades ou para construir tabelas agrupadas por Ano/Mês/Dia.
+
+Abaixo algumas features que podem ser extraídas do dataset original ou combinando com outras fontes de dados.
+
+![alt text]( https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/img_hypothesis.jpg)
+
+Nesse projeto foram extraídas as features temporais e ajustadas algumas features categóricas ( colunas que contém dados do tipo texto ). Tmabém nesta etapa foram levantadas algumas hipóteses que irei validar com os dados e análises ( mais detalhes no notebook rossmann_sales.ipynb ).
