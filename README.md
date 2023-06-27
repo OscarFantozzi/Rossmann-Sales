@@ -81,4 +81,4 @@ Nesse projeto foram extraídas as features temporais e ajustadas algumas feature
 
 ## ETAPE 3: Filtragem de variáveis
 
-Nesta etapa, preparo o formato do dataset que vou treinar o meu modelo, basicamento filtrando as linhas e removendo colunas não relevantes. Nas linhas filtrei somente as lojas abertas e removi as colunas 'customers' e outras features derivadas pois irrelevantes para o modelo. Faz sentido remover a colunas 'customers'( como informado acima, indica o número de clientes dentro da loja naquele dia ), pois no momento da predição não consigo informar quantos clies vou ter na loja naquele dia 
+Nesta etapa, preparo o formato do dataset com as colunas e linhas que utilizarei para treinar modelo de ML basicamento filtrando as linhas e removendo colunas não irrelevantes. Nas linhas filtrei somente as lojas abertas e removi a feature 'customers' e outras features derivadas. O porquê da remoção da feature 'customers'( como informado acima, indica o número de clientes dentro da loja naquele dia ) se dá porquê no momento da previsão de vendas, não saberei quantos clientes terei naqulea loja. 
