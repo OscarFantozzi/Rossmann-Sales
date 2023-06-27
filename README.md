@@ -67,3 +67,8 @@ Em um dataset tabular ( dados em formato de tabela ), cada coluna representa um 
 * promo2_since_year - o ano que a loja esteve participando da promo2.
 
 * promo_interval - mostra os meses consecutivos em que a loja teve promo2. Por exemplo: "Feb,May,Aug,Nov" significa que a loja participou da promo2 nos meses de Fevereiro, Maio, Agosto e Novembro daquele ano.
+
+
+## ETAPA 2: Feature Engineering
+
+A etapa de feature engineering consiste em criar novas features ( colunas ) a partir do dataset original, ou combinando com outro dataset. É bastante comum por exemplo extrairmos as features "Ano", "Mês", "Dia" através de uma data no formato 'aaaa-mm-dd' para realizarmos análises com menores granularidades ou para construir tableas sumarizadas por Ano/Mês/Dia.
