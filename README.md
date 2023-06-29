@@ -83,3 +83,17 @@ Nesse projeto foram extraídas as features temporais e ajustadas algumas feature
 
 Nesta etapa preparo o formato do dataset com as colunas e linhas que utilizarei para treinar modelo de ML. Basicamente consiste em filtras excluir linhas e colunas não relevantes no momento da predição. 
 Nas linhas deixei somente as lojas que estão abertas e removi a feature 'customers' e outras features derivadas. O porquê da remoção da feature 'customers'( como informado acima, indica o número de clientes dentro da loja naquele dia ) se dá porquê no momento da predição, não consigo informar quantos clientes tenho naquela loja. 
+
+## Análise Exploratória de Dados
+
+Nesta etapa de análise exploratória de dados, análisei os dados atráves de análise univariada, bivariada e multivariada.
+
+### Análise Univariada
+
+Na análise univariada meu interesse vou ver a distribuição das features do dataset e suas características sem levar em consideração outras variáveis correlacionadas. Importante pois nos ajuda a responder perguntas quais: qual o valor médio da feature? Quais os valores mínimos e máximos? Que tipo de distribuição encontro na feature? Existem outliers?
+
+### Análise Bivariada
+
+Ná análise bivariada, meu interesse foi ver se existia alguma entre as features e a variável resposta. A variável resposta, é a feature que eu quero prever, no meu caso como quero prever as vendas das próximas 06 semanas, foi a feature "sales".Para verificar as correlações, levantei algumas hipóteses e tentei respondê-las combinando features. A análise bivariada me ajudou a perceber como uma feature se comporta em relação a variável resposta. 
+
+### 
