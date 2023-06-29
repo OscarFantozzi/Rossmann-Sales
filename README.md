@@ -96,6 +96,4 @@ Neste case, a distribuição da variável resposta é normal.
 
 ### Análise Bivariada
 
-Ná análise bivariada, meu interesse foi ver se existia alguma entre as features e a variável resposta. A variável resposta, é a feature que eu quero prever, no meu caso como quero prever as vendas das próximas 06 semanas, foi a feature "sales".Para verificar as correlações, levantei algumas hipóteses e tentei respondê-las combinando features. A análise bivariada me ajudou a perceber como uma feature se comporta em relação a variável resposta. 
-
-### 
+Na análise Bivariada, como o próprio nome sugere, meu interesse foi ver se existiam alguma relação ou comportamente entre as features e a variável resposta. Primeiro levantei algumas hipóteses e respondi usando o relacionamento entre features. Por exemplo para responder a hipótese: "Lojas com maiores sortimentos deveriam vender mais?" relacionei a feture "assortment" e "sales" e observei se havia alguma comportamente entre as features.
