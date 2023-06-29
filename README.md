@@ -100,3 +100,7 @@ Na análise Bivariada, como o próprio nome sugere, meu interesse foi ver se exi
 
 Como análisado a hipótese é falsa, ou seja lojas com sortimento "básico" vendem mais.
 ![alt text]( https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/analise_bivariada.jpg)
+
+## Análise Multivariada
+
+
