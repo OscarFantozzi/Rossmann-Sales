@@ -97,3 +97,6 @@ Neste case, a distribuição da variável resposta é normal.
 ### Análise Bivariada
 
 Na análise Bivariada, como o próprio nome sugere, meu interesse foi ver se existiam alguma relação ou comportamente entre as features e a variável resposta. Primeiro levantei algumas hipóteses e respondi usando o relacionamento entre features. Por exemplo para responder a hipótese: "Lojas com maiores sortimentos deveriam vender mais?" relacionei a feture "assortment" e "sales" e observei se havia alguma comportamente entre as features.
+
+Como análisado a hipótese é falsa, ou seja lojas com sortimento "básico" vendem mais.
+![alt text]( https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/analise_bivariada.jpg)
