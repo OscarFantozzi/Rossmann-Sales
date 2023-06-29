@@ -90,7 +90,9 @@ Nesta etapa de análise exploratória de dados, análisei os dados atráves de a
 
 ### Análise Univariada
 
-Na análise univariada meu interesse vou ver a distribuição das features do dataset e suas características sem levar em consideração outras variáveis correlacionadas. Importante pois nos ajuda a responder perguntas quais: qual o valor médio da feature? Quais os valores mínimos e máximos? Que tipo de distribuição encontro na feature? Existem outliers?
+Na análise univariada meu interesse foi ver a distribuição das features do dataset e suas características sem levar em consideração outras variáveis correlacionadas. Importante pois nos ajuda a responder perguntas quais: qual o valor médio da feature? Quais os valores mínimos e máximos? Que tipo de distribuição encontro na feature? Existem outliers?
+
+Neste case, a distribuição da variável resposta é normal.
 
 ### Análise Bivariada
 
