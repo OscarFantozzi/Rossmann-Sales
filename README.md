@@ -79,12 +79,12 @@ Abaixo algumas features que podem ser extraídas do dataset original ou combinan
 
 Nesse projeto foram extraídas as features temporais e ajustadas algumas features categóricas ( colunas que contém dados do tipo texto ). Também nesta etapa foram levantadas algumas hipóteses que irei validar com os dados e análises ( mais detalhes no notebook rossmann_sales.ipynb ).
 
-## ETAPE 3: Filtragem de variáveis
+## ETAPA 3: Filtragem de variáveis
 
 Nesta etapa preparo o formato do dataset com as colunas e linhas que utilizarei para treinar modelo de ML. Basicamente consiste em filtras excluir linhas e colunas não relevantes no momento da predição. 
 Nas linhas deixei somente as lojas que estão abertas e removi a feature 'customers' e outras features derivadas. O porquê da remoção da feature 'customers'( como informado acima, indica o número de clientes dentro da loja naquele dia ) se dá porquê no momento da predição, não consigo informar quantos clientes tenho naquela loja. 
 
-## Análise Exploratória de Dados
+## ETAPA 4: Análise Exploratória de Dados
 
 Nesta etapa de análise exploratória de dados, análisei os dados atráves de análise univariada, bivariada e multivariada.
 
@@ -97,3 +97,10 @@ Neste case, a distribuição da variável resposta é normal.
 ### Análise Bivariada
 
 Na análise Bivariada, como o próprio nome sugere, meu interesse foi ver se existiam alguma relação ou comportamente entre as features e a variável resposta. Primeiro levantei algumas hipóteses e respondi usando o relacionamento entre features. Por exemplo para responder a hipótese: "Lojas com maiores sortimentos deveriam vender mais?" relacionei a feture "assortment" e "sales" e observei se havia alguma comportamente entre as features.
+
+Como análisado a hipótese é falsa, ou seja lojas com sortimento "básico" vendem mais.
+![alt text]( https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/analise_bivariada.jpg)
+
+## Análise Multivariada
+
+
