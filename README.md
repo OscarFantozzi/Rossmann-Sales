@@ -103,4 +103,34 @@ Como análisado a hipótese é falsa, ou seja lojas com sortimento "básico" ven
 
 ## Análise Multivariada
 
+Na análise multivariada, foi aplicada um método de correlação de Pearson para verificar se existiam correlações entre as variáveis numéricas. Para verificar a correlação entre as variáveis categóricas ( features que contém texto ) foi usado o V de Cramer ( mais detalhes no jupyter noteboook )
+
+## ETAPA 5: Preparação dos Dados
+
+O aprendizado da maioria dos algoritmos de Machine Learning é facilitado por dados **numéricos**  e na mesma **escala**, é importanto que os dados tenham a mesma escala pois muitos algoritmos tendem a dar maior importância a features que tenham maior range, enviesando assim o modelo. Tendo isso em mente as etapas aplicadas foram:
+
+### Normalização
+
+É usada para trazer os dados para o mesmo range.Na normalização é feita a reescala com o centro para 0 e o desvio padrão para 1. O desvio-padrão de maneira simplificada é quanto um determinado valor é distante da média. Por exemplo se eu tenho na feature "competition_distance" uma média de 100 metros e considero um desvio-padrão de 20, o meu range é 100 + ou - 20 ( então pode ir de 80 até 120 ). Quando faço a normalização a escala se torna com o centro 0 + ou - 1.
+A noralização funciona bem para distribuições normais, neste caso como não tenho distribuições normais, decidi não usar a normalização.
+
+A normalização é dada pela fórmula abaixo:
+
+![alt text]( https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/normalizacao.jpg)
+
+Basicamente é calculada a média dos dados de uma feature ( ou coluna do dataset ) e para cada dado subtraio a média e divido pelo desvio padrão.
+Isso mudará a escala da minha feature.
+
+### Rescaling
+
+O rescaling é a reescala feita para features que não tem distribuições normais.É feita a reescala de para o intervalo entre 0 e 1.
+
+### Transformação
+
+- *Encondig*: Conversão de fetures categóricas para features numéricas.
+- *Transformação de Natureza*": Usadas em variáveis cíclicas que se repetem. Por exemplo o ano tem um comportamento cíclico, pois a cada 12 meses tenho novamente 1 ano.
+  
+
+
+
 
