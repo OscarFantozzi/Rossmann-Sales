@@ -1,6 +1,8 @@
 
 ## Business Problem
 
+![alt text](https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/.jpg)
+
 Rossmann is a large pharmacy chain operating in over 7 European countries with more than 3,000 stores. 
 Sales are influenced by various factors such as competition distance, school and state holidays, location, store type, etc. 
 Based on the historical sales data of the stores, the CFO intends to forecast sales for the next six weeks. 
