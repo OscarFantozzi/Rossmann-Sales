@@ -1,7 +1,8 @@
 
 ## Business Problem
 
-![alt text](https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/.jpg)
+![alt text](https://github.com/OscarFantozzi/rossmann_sales/blob/main/img/rossmann.jpg)
+
 
 Rossmann is a large pharmacy chain operating in over 7 European countries with more than 3,000 stores. 
 Sales are influenced by various factors such as competition distance, school and state holidays, location, store type, etc. 
