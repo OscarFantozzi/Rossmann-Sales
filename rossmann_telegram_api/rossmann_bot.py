@@ -58,7 +58,7 @@ def load_data( store_id ):
 
 def predict( data ):
     # API call
-    url = '${{ secrets.API_TELEGRAM }}'
+    url = 'https://rossmann-sales-3.onrender.com'
     header = {'Content-type' : 'application/json'}
 
     data = data
