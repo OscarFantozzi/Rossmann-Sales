@@ -9,7 +9,7 @@ class Rossmann( object ):
     def __init__( self ):
         parameter_path = os.path.join(os.path.dirname(__file__), '..', 'parameter')
         self.competition_distance_scaler   = pickle.load( open(os.path.join(parameter_path, 'competition_distance_scaler.pkl') , 'rb' ) )
-        self.competition_time_month_scaler = pickle.load( open(os.path.join(parameter_path,'competition_time_month_scaler.pkl' , 'rb' ) )
+        self.competition_time_month_scaler = pickle.load( open(os.path.join(parameter_path,'competition_time_month_scaler.pkl') , 'rb' ) )
         self.promo_time_week_scaler        = pickle.load( open(os.path.join(parameter_path, 'promo_time_week_scaler.pkl', 'rb' ) )
         self.year_scaler                   = pickle.load( open(os.path.join(parameter_path, 'year_scaler.pkl' , 'rb' ) )
         self.store_type_scaler             = pickle.load( open(os.path.join(parameter_path, 'store_type_scaler.pkl' , 'rb' ) )
