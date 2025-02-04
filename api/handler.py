@@ -6,8 +6,10 @@ import pandas as pd
 from flask             import Flask, request
 from Rossmann import Rossmann
 
+model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'trained_model.pkl')
+
 # loading model
-model = pickle.load( open( r'..\models\trained_model.pkl' , 'rb') )
+model = pickle.load( open( model_path , 'rb') )
 
 # initialize api
 app = Flask( __name__ )

@@ -59,7 +59,9 @@ def load_data( store_id ):
 
 def predict( data ):
     # API call
+
     url = 'https://rossmann-sales-3.onrender.com/rossmann/predict'
+
     header = {'Content-type' : 'application/json'}
 
     data = data
