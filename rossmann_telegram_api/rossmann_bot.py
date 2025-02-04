@@ -4,10 +4,10 @@ import requests
 from flask import Flask, request, Response
 import os
 
-base_directory = os.path.dirname(os.path.abspath(__file__))
+base_directory = parameter_path = os.path.join(os.path.dirname(__file__), '..', 'data')
 
-path_test  = os.path.join( base_directory, 'data', 'test.csv' )
-path_store = os.path.join( base_directory, 'data', 'store.csv' )
+path_test  = os.path.join( base_directory, 'test.csv' )
+path_store = os.path.join( base_directory, 'store.csv' )
 
 # # constants
 token = '5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ'
@@ -97,6 +97,8 @@ def parse_message( message ):
 
 # API initialize
 app = Flask( __name__ )
+
+print(path_test)
 
 @app.route('/', methods = ['GET', 'POST'])
 def index():
