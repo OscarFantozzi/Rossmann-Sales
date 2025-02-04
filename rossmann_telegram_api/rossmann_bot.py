@@ -4,8 +4,15 @@ import requests
 from flask import Flask, request, Response
 import os
 
+base_directory = os.path.dirname(os.path.abspath(__file__))
+
+path_test  = os.path.join( base_directory, 'data', 'test.csv' )
+path_store = os.path.join( base_directory, 'data', 'store.csv' )
+
 # # constants
 token = '5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ'
+
+
 
 # # info about bot
 # https://api.telegram.org/bot5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ/getMe
