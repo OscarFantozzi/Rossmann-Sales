@@ -2,9 +2,10 @@ import pandas as pd
 import json
 import requests
 from flask import Flask, request, Response
+import os
 
 # # constants
-token = ${{ secrets.token_telegram }}
+token = '5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ'
 
 # # info about bot
 # https://api.telegram.org/bot5467220512:AAFXDcO--pup9FlYI_3baZSHNx6W4gjGVaQ/getMe
@@ -58,7 +59,7 @@ def load_data( store_id ):
 
 def predict( data ):
     # API call
-    url = '${{ secrets.API_TELEGRAM }}'
+    url = 'https://rossmann-sales-3.onrender.com/rossmann/predict'
     header = {'Content-type' : 'application/json'}
 
     data = data
